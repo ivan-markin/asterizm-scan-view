@@ -573,10 +573,8 @@ template {
   margin-bottom: 0 !important;
 }
 
-.no-webp .hero {
-  background: url("../img/hero-bg.png") no-repeat bottom center; }
-
 .hero {
+  background: url("../img/hero-bg.png") no-repeat bottom center;
   background-size: cover;
   height: 360px;
 }
@@ -1219,10 +1217,8 @@ fieldset {
     margin-top: 30px;
   }
 
-  .no-webp .hero {
-    background: url("../img/hero-bg_mobile.png") no-repeat bottom center; }
-
   .hero {
+    background: url("../img/hero-bg_mobile.png") no-repeat bottom center;
     background-size: cover;
     height: 645px;
   }
@@ -1326,11 +1322,4 @@ fieldset {
   .wrap {
     padding: 0 20px;
   }
-}
-
-.webp .hero { background: url(../img/hero-bg.webp) no-repeat bottom center; }
-
-@media (max-width: 768px) {
-
-  .webp .hero { background: url(../img/hero-bg_mobile.webp) no-repeat bottom center; }
 }

@@ -1,1 +1,0 @@
-# asterizm-scan-view
